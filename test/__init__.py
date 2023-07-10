@@ -1,4 +1,6 @@
 from flask import Flask
+from flask_migrate import migrate
+from flask_sqlalchemy import SQLAlchemy
 
 # create_app() 이 실행되면 내부에 함수들이 모두 동작을 하게 된다
 # create_app는 프레임워크에 내장되어 있는 예약어
